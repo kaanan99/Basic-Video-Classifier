@@ -16,7 +16,7 @@ def write_split_file(name:str, video_paths:List, labels:List[str]) -> None:
     split_file.close()
 
 def main():
-    video_base_directory = "./UCF11_updated_mpg"
+    video_base_directory = "./UCF11_updated_mpg/UCF11_updated_mpg"
     video_classes = os.listdir(video_base_directory)
 
 
